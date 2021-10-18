@@ -19,11 +19,11 @@ header {
 }
 
 .header-top {
-  background-color: pink;
+  background-color: rgb(245,245,245);
   display: flex;  
   width: 100%;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .header-logo-balanz {
@@ -32,7 +32,7 @@ header {
 }
 
 .header-logos b {
-  color: grey;
+  color: rgb(92, 91, 91);
 }
 
 .ifa {
@@ -50,7 +50,7 @@ header {
 .header-bottom {
   background-color: lightblue;
   display: flex;
-  width: 95%;
+  width: 96%;
   margin: 2rem auto;
   height: 5rem;
   padding: 1rem;
@@ -128,4 +128,119 @@ header {
 .investment-ideas a {
   display: flex;
   align-self: center;
+}
+
+#consolidated-position {
+  color: rgb(13,12,92);
+  font-size: 3.6rem;
+  font-weight: 300;
+  margin-left: 3rem;
+}
+
+.numbers {
+  display: flex;
+  margin: 0 3rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.numbers b {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.numbers-total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 36%;
+  line-height: 2;
+  padding: 1rem;
+  border-radius: .6rem;
+  border-left: 8px solid #ff0000;
+  box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+
+.numbers-instruments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 20%;
+  line-height: 2;
+  border-radius: .6rem;
+  padding: 1rem;
+  border-left: 8px solid rgb(165,165,159);
+  box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+
+.numbers-currency {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 20%;
+  line-height: 2;
+  border-radius: .6rem;
+  padding: 1rem;
+  border-left: 8px solid rgb(37,76,128);
+  box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+
+.numbers-available {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 20%;
+  line-height: 2;
+  border-radius: .6rem;
+  padding: 1rem;
+  border-left: 8px solid rgb(12,12,92);
+  box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+
+.numbers-available img {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(158, 158, 163);
+}
+
+.numbers-available div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.withdrawal-and-deposit {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4rem;
+}
+
+
+.withdrawal-and-deposit img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.withdrawal-and-deposit_images {
+  display: flex;
+}
+
+.withdrawal-and-deposit_images a {
+  display: flex;
+  text-decoration: none;
+  padding: .3rem;
+  border: #e0e0e0 solid .1rem;
+  border-radius: .3rem;
+  background-color: #fff;
+}
+
+.withdrawal-and-deposit_images a p {
+  margin-left: .3rem;
 }
