@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(245,245,245);
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  background-color: pink;
+  display: flex;  
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header-logo-balanz {
+  margin: auto 0;
+  padding-left: 2rem;
+}
+
+.header-logos b {
+  color: grey;
+}
+
+.ifa {
+  display: flex;
+}
+
+.ifa-logos {
+  display: flex;
+}
+
+.ifa-logos img:last-child {
+  margin-left: .5rem;
+}
+
+.header-bottom {
+  background-color: lightblue;
+  display: flex;
+  width: 95%;
+  margin: 2rem auto;
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: .1rem .1rem .1rem .1rem rgba(128, 128, 128, 0.972);
+  border: hidden;
+}
+
+.header-logos {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.header-logos a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.header-logos img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-bottom ul {
+  list-style: none;
+  display: flex;
+  align-content: flex-start;
+}
+
+.header-bottom ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.header-bottom a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lightbulb {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-account {
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+  height: 2rem;
+}
+
+.header-account-settings {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.header-account-settings img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 2rem;
+}
+
+#account-info {
+  width: 20rem;
+  height: 2.5rem;
+}
+
+.investment-ideas {
+  display: flex;
+}
+
+.investment-ideas a {
+  display: flex;
+  align-self: center;
+}
